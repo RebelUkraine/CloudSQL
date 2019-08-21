@@ -12,7 +12,7 @@ variable "location" {
 
 // Database configuration
 variable "database_instance_name" {
-  default = "main-postgres-temp-xyz"
+  default = "postgres-devops055"
 }
 
 resource "random_id" "db_prod_pass" {
