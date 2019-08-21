@@ -3,7 +3,7 @@ variable "project_name" {
 }
 
 variable "gloud_creds_file" {
-  default = "~/.json/absolute-router-242207-e0142bb87119.json"
+  default = "/root/.json/absolute-router-242207-e0142bb87119.json"
 }
 
 variable "location" {
