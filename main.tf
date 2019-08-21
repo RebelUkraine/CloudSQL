@@ -2,6 +2,7 @@ provider "google" {
   credentials = "${file(var.gloud_creds_file)}"
   project     = "${var.project_name}"
   region      = "${var.location}"
+  zone        = "${var.location}-a"
 }
 
 resource "google_sql_database_instance" "postgres" {
